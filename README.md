@@ -1,22 +1,22 @@
-Usage：
+##Usage：
 
-​	NxsFile :
+  ##NxsFile :
 
-​		python2 NeteaseNxsUnpack/DecodeNetNxs.py     INPUT_FILE    OUTPUT_FILE 
+  ​		python2 NeteaseNxsUnpack/DecodeNetNxs.py     INPUT_FILE    OUTPUT_FILE 
 
-​	NpkFile
+  ##NpkFile
 
-​		python2 NeteaseNpkUnpack/NeteaseNpkUnpack.py   INPUT_FILE(.npk)  OUTPUT_DIR
+​		  python2 NeteaseNpkUnpack/NeteaseNpkUnpack.py   INPUT_FILE(.npk)  OUTPUT_DIR
 
-​	PycFile
+  ##PycFile
 
-​		cd NeteasePycObject
+​		  cd NeteasePycObject
 
-​		g++ netpyc -o netpyc
+​	  	g++ netpyc -o netpyc
 
-​		netpyc  INPUT_FILE  OUT_FILE  [isEncrypt]
+​		  netpyc  INPUT_FILE  OUT_FILE  [isEncrypt]
 
-​		Arg3 is option 
+​	  	Arg3 is option 
 
 
 
